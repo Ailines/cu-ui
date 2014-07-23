@@ -20,7 +20,7 @@ module Character {
 
         var maxHP = 1000;
         var curHP = Math.round(Math.random() * maxHP);
-        var name = "";
+        var name = "NAME GOES HERE";
         var effects = "[]";
         if (cu.HasAPI()) {
             curHP = cuAPI.hp;
